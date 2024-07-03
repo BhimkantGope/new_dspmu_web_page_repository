@@ -1,0 +1,730 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    height: 50.22px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    font-size: 0.85rem;
+}
+
+.nav-one a{
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+}
+.nav-one a:hover{
+    color: rgb(239, 55, 86);
+}
+.nav-two a{
+    margin-left: 15px;
+}
+.nav-two a:hover{
+    color: rgb(239, 55, 86);
+}
+
+.nav-one a i{
+    color: rgb(239, 55, 86);
+}
+
+.nav-log{
+    color: aliceblue;
+    background-color: rgb(239, 55, 86);
+    opacity: 90%;
+    padding: 18px;
+}
+.nav-log:hover{
+    background-color: #1ab69d;
+}
+.nav-log i:hover{
+    background-color: #1ab69d;
+}
+
+.nav-log a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.manubar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.manubar select{
+    border: none;
+    margin: 20px 0px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.manubar select:hover{
+    color: rgb(14, 206, 202);
+}
+
+.manubar select option{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: black;
+}
+.man-home:hover{
+    color: rgb(14, 206, 202);
+}
+/* .man-about:hover{
+    color: rgb(14, 206, 202);
+}
+.man-administration:hover{
+    color: rgb(14, 206, 202);
+}
+.man-department:hover{
+    color: rgb(14, 206, 202);
+}
+.man-facilities:hover{
+    color: rgb(14, 206, 202);
+}
+.man-student:hover{
+    color: rgb(14, 206, 202);
+}
+.man-research:hover{
+    color: rgb(14, 206, 202);
+} */
+
+/* sliders */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+.persioninfo{
+    background-color: rgb(237, 236, 234);
+    width: 85%;
+    height: 260px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 6px;
+    position: relative;
+    bottom: 115px;
+    box-shadow: 2px 2px 30px rgb(198, 197, 197);
+}
+
+.persioninfo div{
+    width: 24.5%;
+    background-color: white;
+}
+
+/**person1**/
+
+.persion1 p{
+    padding: 10px 20px;
+}
+.perimg1-name{
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+}
+
+.perimg1-name img{
+    border-radius: 50%;
+}
+.persion1 p{
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+}
+p a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/**persion2*/
+
+.persion2 p{
+    padding: 10px 20px;
+}
+.perimg2-name{
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+}
+
+
+.perimg2-name img{
+    border-radius: 50%;
+}
+.persion2 p{
+    margin-top: 25px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 0.85rem;
+}
+
+/**person3**/
+
+
+.persion3{
+    padding: 10px 20px;
+}
+.perimg3-name{
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+.perimg3-name img{
+    border-radius: 50%;
+}
+.persion3 p{
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+}
+
+/**person4**/
+.persion4{
+    padding: 10px 20px;
+}
+
+.perimg4-name{
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+
+.perimg4-name img{
+    border-radius: 50%;
+}
+
+.persion4 p{
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+}
+
+p a i{
+    color: rgb(11, 11, 157);
+}
+
+
+.notice{
+    width: 85%;
+    height: 60px;
+    margin: auto;
+    color: rgba(12, 250, 246,0.5);
+    background-color: rgb(16, 16, 16);
+    position: relative;
+    bottom: 110px;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notifications{
+    width: 85%;
+    height: 550px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    bottom: 96px;
+}
+.latest{
+    width: 50%;
+    margin: 10px 0px 5px;
+} 
+.latest h4{
+    display:inline-block;
+    padding-right: 20px;
+}
+.latest h4:hover{
+    color: rgb(239, 55, 86);
+    text-decoration: underline 2px;
+}
+.hone{
+    color: rgb(239, 55, 86);
+    text-decoration: underline 2px;
+}
+
+ul li{
+    line-height: 60px;
+    color: rgb(248, 76, 76);
+}
+.ullist{
+    height: 400px;
+    font-size: 0.85rem;
+}
+.list{
+    color: white;
+    background-color: #1ab69d;
+    border-radius: 50%;
+    padding: 15px;
+    text-align: center;
+}
+
+.four{
+    color: #1ab69d;
+    text-align: right;
+    font-weight: 700;
+    margin-right: 50px;
+}
+.four:hover{
+    color:  rgb(239, 55, 86);
+    text-decoration: underline 2px #1ab69d;
+}
+
+
+.about{
+    width: 50%;
+    margin: 10px 0px 5px;
+}
+.about h4{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.about h4:hover{
+    color: rgb(239, 55, 86);
+    text-decoration: underline 2px;
+}
+
+.about-para1{
+    line-height: 35px;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    text-align: justify;
+}
+.para img{
+    height: 18px;
+    width: 18px;
+}
+.para{
+    margin-left: 40px;
+    line-height: 35px;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    text-align: justify;
+}
+.about-para3 b{
+    color: #b5b8b7;
+}
+.about-para3 b:hover{
+color: #1ab69d;
+}
+
+
+.div-num{
+    width: 85%;
+    height: 150px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 40px;
+}
+.one1{
+    height: 150px;
+    width: 250px;
+    padding: 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 8px 8px 50px rgb(220, 220, 220);
+}
+
+.two2{ 
+    height: 150px;
+    width: 250px;
+    padding:45px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 8px 8px 50px rgb(220, 220, 220);
+} 
+.three3{
+    height: 150px;
+    width: 250px;
+    padding: 45px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 8px 8px 50px rgb(220, 220, 220);
+}
+.four4{
+    height: 150px;
+    width: 250px;
+    padding:45px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 8px 8px 50px rgb(220, 220, 220);
+}
+.one1 b{
+    font-size: 45px;
+    color: #1ab69d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two2 b{
+    font-size: 45px;
+    color: rgb(207, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three3 b{
+    font-size: 45px;
+    color: rgba(29, 29, 156, 0.782);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three3 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four4 b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: orange;
+}
+.four4 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider3 img{
+    width: 100%;
+}
+
+.contact{
+    width: 58%;
+    height: 195px;
+    background-color: rgb(254, 183, 50);
+    border-radius: 15px;
+    position: relative;
+    margin: auto;
+    bottom: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.email{
+    font-size: 1.3rem;
+    text-align: right;
+    line-height: 35px;
+}
+
+.email-two{
+    font-weight: 700;
+    
+}
+.email-three{
+    font-weight: 700;
+}
+.or{
+    height: 70px;
+    width: 70px;
+    font-weight: 700;
+    font-size: 1.3rem;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid rgb(213, 211, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.via{
+font-size: 1.3rem;
+line-height: 35px;
+}
+.via-two{
+    font-weight: 700;
+}
+
+
+.footer1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 45px;
+}
+.logos{
+    height: 60px;
+    width: 1105px;
+    background-color: rgb(180, 178, 176);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image1{
+    height: 60px;
+    width: 183px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1 img{
+    height: 40px;
+    width: 150px
+}
+.image2{
+    height: 60px;
+    width: 183px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image2 img{
+    height: 40px;
+    width: 150px
+}
+.image3{
+    height: 60px;
+    width: 183px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image3 img{
+    height: 40px;
+    width: 150px
+}
+.image4{
+    height: 60px;
+    width: 183px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image4 img{
+    height: 40px;
+    width: 150px
+}
+.image5{
+    height: 60px;
+    width: 183px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image5 img{
+    height: 40px;
+    width: 150px
+}
+.image6{
+    height: 60px;
+    width: 183px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image6 img{
+    height: 40px;
+    width: 150px
+}
+.footer2{
+    height: 300px;
+    background-color: rgb(21, 20, 20);
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 14px;
+    line-height: 35px;
+}
+.footer2-one{
+    margin-left: 130px;
+    margin-top: 15px;
+}
+.footer2-one h3{
+    color: white;
+}
+.footer2-one a{
+    color: rgb(201, 200, 198);
+    font-size: 0.85rem;
+}
+.footer2-two{
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.footer2-two h3{
+    color: white;
+}
+.footer2-two a{
+    color: rgb(201, 200, 198);
+    font-size: 0.85rem;
+}
+
+.footer2-three{
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.footer2-three h3{
+    color: white;
+}
+.footer2-three a{
+    color: rgb(201, 200, 198);
+    font-size: 0.85rem;
+}
+.footer2-four{
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.footer2-four h3{
+    color: white;
+}
+.footer2-four a{
+    color: rgb(201, 200, 198);
+    font-size: 0.85rem;
+}
+.footer2-four p{
+    color: rgb(225, 224, 221);
+    font-size: 0.85rem;
+}
+.footer2-img img{
+    height: 30px;
+    width: 30px;   
+    margin-right: 20px; 
+    background-color: rgb(21, 20, 20);
+}
+
+.footer3{
+    margin-top: 5px;
+    height: 60px;
+    background-color: rgb(21, 20, 20);
+    position: relative;
+    bottom: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer3 a{
+    color: #1ab69d;
+    font-size: 0.85rem;
+}
+.footer3 a:hover{
+    color: darkgreen;
+}
